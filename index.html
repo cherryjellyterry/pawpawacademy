@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포포아카데미 - 강아지 훈련소</title>
+
+    <!-- 기본 seo -->
+    <meta name="description" content="포포아카데미는 웹 퍼블리셔 안태리가 취업용도의 포트폴리오로 만든 웹사이트입니다.">
+    <meta name="keywords" content="포포아카데미, 강아지, 강아지훈련소, 강아지포트폴리오, 강아지훈련소포트폴리오, 강아지포트폴리오홈페이지, 웹퍼블리셔포트폴리오, 웹디자이너포트폴리오, 웹디자인포트폴리오">
+
+    <!-- 고급 seo -->
+    <link rel="canonical" href="http://www.cafeakku.dothome.co.kr/">
+
+    <!-- open graph (sns 공유 최적화) -->
+    <meta property="og:title" content="포포아카데미 - 안태리의 포트폴리오">
+    <meta property="og:description" content="안태리의 포포아카데미 포트폴리오를 구경해보세요!">
+    <meta property="og:image" content="http://www.cafeakku.dothome.co.kr/img/con1">
+    <meta property="og:url" content="http://www.cafeakku.dothome.co.kr/">
+
+    <!-- 파비콘 -->
+    <link rel="icon" sizes="32x32" href="./img/favicon.png" type="image/png">
+
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> -->
+
+
+
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variable.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="./js/header.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+    <div class="modal_gnb"></div>
+    <div class="btn_gnb">
+        <img src="./img/logo.svg" alt="로고">
+    </div>
+    <div class="gnb_hidden">
+        <section class="gnb_top">
+            <h1 class="logo_gnb"><a href="./index.html"><img src="./img/logo.svg" alt="로고"></a></h1>
+            <div class="tnb">
+                <ul>
+                    <li><a href="#"><h5>회원가입</h5></a></li>
+                    <li><a href="#"><h5><mco>로그인</mco></h5></a></li>
+                </ul>
+            </div>
+            <a href="#" id="close_btn"><img src="./img/gnb_geschlossen.svg" alt="닫기버튼"></a>
+        </section>
+        <section class="gnb_mid">
+            <ul class="gnb_mid_list">
+                <li>
+                    <a href="#"><h2 class="pf">훈련소 이야기</h2>
+                    <span>훈련소에서 있었던 재미난 일들, 궁금한 이야기들을 볼 수 있어요!</span></a>
+                </li>
+                <li>
+                    <a href="#"><h2 class="pf">훈련 프로그램</h2>
+                        <span>여기선 내가 훈련한 비법들을 알려줄게요!</span></a>
+                </li>
+                <li>
+                    <a href="#"><h2 class="pf">멍멍 스퀘어</h2>
+                        <span>모여서 놀고, 이야기도 나누는 곳이예요!</span></a>
+                </li>
+                <li>
+                    <a href="#"><h2 class="pf">뭐가 궁금하개? (FAQ)</h2>
+                        <span>궁금한 거 있으면 여기로 와서 물어봐요!</span></a>
+                </li>
+                <li>
+                    <a href="#"><h2 class="pf">멍멍 훈련상담소</h2>
+                        <span>내가 도와줄 테니 걱정 마세요, 함께 멋진 훈련을 해봐요!</span></a>
+                </li>
+            </ul>
+        </section>
+        <section class="gnb_bottom">
+            <h4>멍멍 고객센터</h4>
+            <h4><a href="tel:1000-0000">1000-0000</a></h4>
+        </section>
+        <section class="gnb_decoration">
+            <figure>
+                <img class="left_dog" src="./img/dog_gnb.png" alt="좌측하단 강아지">
+            </figure>
+            <figure>
+                <img class="right_dog" src="./img/dog_gnb_2.png" alt="우측 강아지">
+            </figure>
+            <figure>
+                <img class="bottom_dog" src="./img/dog_gnb_3.png" alt="하단 강아지">
+            </figure>
+        </section>
+    </div>
+
+    <div class="btn_top">
+        <img src="./img/btn_top.svg" alt="위로가기버튼">
+    </div>
+
+    <main class="commonFrame" id="fullpage">
+        <div class="herosection section">
+            <div class="station_hero swiper">
+                <ul class="train_hero swiper-wrapper">
+                    <li class="swiper-slide" data-slide-index="0"><img src="./img/slide1.jpg" alt="1번슬라이드"></li>
+                    <li class="swiper-slide" data-slide-index="1"><video src="./img/slide2.mp4" muted autoplay loop></video></li>
+                    <li class="swiper-slide" data-slide-index="2"><img src="./img/slide3.jpg" alt="3번슬라이드"></li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="hero_txt">
+                    <h2 class="pf"><mco>최고의 댕댕이</mco>로 변신할 준비 완료!</h2>
+                    <h4>기본부터 고급까지, 똑똑한 댕댕이가 되는 비결!</h4>
+                </div>
+            </div>  
+        </div>
+
+        <div class="main_con1 section active">
+            <h2 class="pf">우리 강아지와 <mcb>함께</mcb>, <br><mco>한 걸음 더</mco> 가까워지는 공간</h2>
+            <p>반려견과 함께 성장하는 여정을 시작하세요. <br>
+               훈련은 단순한 명령을 넘어서 마음을 이해하고 교감하는 시간입니다. <br>
+               함께 훈련하며 더욱 행복하고 건강한 관계를 만들어가세요.</p>
+            <figure class="main_con1_video">
+                <video src="./video/video.mp4" muted autoplay loop></video>
+            </figure>
+            <a href="#" class="btn_common orange">바로가기</a>
+        </div>
+
+        <div class="main_con2 section">
+            <h2 class="pf"><mcb>멍멍 친구들</mcb> 모여라!</h2>
+            <p>여기서는 나랑 친구들 이야기도 듣고, 재미있는 훈련 꿀팁도 나눌 수 있어! <br>궁금한 거나 자랑하고 싶은 거 있으면 편하게 얘기해 줘. 우리 다 같이 즐겁게 놀자, 멍!</p>
+            <div class="main_con2_best">
+                <h3>멍멍이 PICK! 이번 주 베스트 글 🐾</h3>
+                <ul class="main_con2_best_list">
+                    <li><a href="#">
+                        <img src="./img/community_1.jpg" alt="오늘은 친구들이랑 훈련소에서 신나게 놀았어요🐾">
+                        <div class="modal_community">
+                            <div class="modal_community_box">
+                                <p><detail>2024.11.26</detail></p>
+                                <h4>오늘은 친구들이랑 <br>훈련소에서 신나게 놀았어요🐾</h4>
+                                <p><i>코코맘 님</i></p>
+                            </div>
+                            
+                        </div>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="./img/community_2.jpg" alt="우리집 댕댕이,처음으로 '앉아' 성공했어요!">
+                        <div class="modal_community">
+                            <div class="modal_community_box">
+                                <p><detail>2024.11.25</detail></p>
+                                <h4>우리집 댕댕이, <br>처음으로 '앉아' 성공했어요!</h4>
+                                <p><i>토리랑나랑 님</i></p>
+                            </div>
+                            
+                        </div>
+                    </a></li>
+                    <li><a href="#">
+                        <img src="./img/community_3.jpg" alt="강아지가 산책만 보면 흥분해요...">
+                        <div class="modal_community">
+                            <div class="modal_community_box">
+                                <p><detail>2024.11.24</detail></p>
+                                <h4>강아지가 산책만 보면 흥분해요...<br>어떻게 하면 좋을까요?</h4>
+                                <p><i>꼬물이주인 님</i></p>
+                            </div>
+                        </div>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main_con3 section">
+            <h2 class="pf">반려견과의 더 나은 내일을 위한 <mcb>첫걸음</mcb></h2>
+            <p>우리 강아지가 더 행복하고 건강한 반려견으로 성장할 수 있도록, 지금부터 함께 노력해보세요! <br>포포아카데미의 훈련 프로그램은 강아지와 보호자가 함께 배우고 성장하는 데 중점을 둡니다.</p>
+            <div class="main_con3_wrap_1">
+                <figure>
+                    <img src="./img/main_intro_1.jpg" alt="강아지의 행동과 성격에 맞춘 맞춤형훈련">
+                </figure>
+                <div class="main_con3_wrap_1_txt">
+                    <dl>
+                        <dt><h4>강아지의 행동과 성격에 맞춘 <mco>맞춤형 훈련</mco></h4></dt>
+                        <dd><p><i>모든 강아지는 고유한 성격과 습관을 가지고 있습니다. 저희 훈련소는 이를 고려하여 가장 적합한 훈련 방법을 제공합니다.</i></p></dd>
+                    </dl>
+                    <dl>
+                        <dt><h4>보호자와 <mco>함께</mco>하는 동반 훈련</h4></dt>
+                        <dd><p><i>단순히 강아지를 훈련시키는 것이 아닌, 보호자가 함께 훈련 과정에 참여해 반려견과의 신뢰를 쌓아갑니다.</i></p></dd>
+                    </dl>
+                    <dl>
+                        <dt><h4><mco>긍정적인 강화</mco>로 즐거운 학습 환경 조성</h4></dt>
+                        <dd><p><i>강아지의 자율성과 호기심을 존중하며, 긍정적인 강화 방식을 통해 강아지가 학습에 흥미를 느끼도록 돕습니다.</i></p></dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="main_con3_wrap_2">
+                <div class="main_con3_wrap_2_txt">
+                    <h5>이제 반려견과의 소중한 일상을 더욱 빛나게 할 준비가 되셨나요?</h5>
+                    <h2 class="pf">
+                        <mco>포포아카데미</mco>에서<br>
+                        그 <mcb>첫걸음</mcb>을 함께하세요!
+                    </h2>
+                </div>
+                <figure>
+                    <img src="./img/main_intro_2.jpg" alt="이제 반려견과의 소중한 일상을 더욱 빛나게 할 준비가 되셨나요?">
+                </figure>
+            </div>
+        </div>
+        <div class="main_con4">
+            <h5><mco>훈련이 궁금하다면?</mco></h5>
+            <h2 class="pf">자주 묻는 질문에서 확인하세요!</h2>
+            <div class="main_con4_wrap">
+                <img src="./img/faq_main.png" alt="자주묻는질문">
+            </div>
+            <a href="#" class="btn_common blue">FAQ 자주묻는질문
+            </a>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <section class="commonFrame">
+            <div class="footer_1">
+                <ul>
+                    <li><a href="#"><h5>법적고지</h5></a></li>
+                    <li><a href="#"><h5>개인정보 처리방침</h5></a></li>
+                    <li><a href="#"><h5>이용 약관</h5></a></li>
+                    <li><a href="#"><h5>오시는 길</h5></a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <ul>
+                            <li>대표자 : 안태리</li>
+                            <li>상호명 : 포포아카데미</li>
+                            <li>서울특별시 강남구 반려로 123, 3층</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="footer_2">
+                            <li>전화번호 : 02-1234-5678</li>
+                            <li>이메일: contact@pawpawacademy.com</li>
+                            <li>사업자 등록번호 : 123-45-67890</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>본 웹사이트는 포트폴리오 용으로 제작되었습니다.</p>
+            </div>
+            <div>
+                <h1 class="logo_foot">
+                    <a href="#"><img src="./img/logo_foot.svg" alt="푸터로고"></a>
+                </h1>
+            </div>
+        </section>
+        
+    </footer>
+
+    <div class="login_container">
+        <div class="login_wrap commonFrame">
+            <div class="login_box">
+                <div class="login_box_left">
+                    <h2>JOIN</h2>
+                    <i><g5>강아지와의 더 나은 소통을 위해, 
+                        지금 바로 회원가입하고 훈련의 첫걸음을 내디뎌보세요!</g5></i>
+                    <div class="btn_common open_login orange">
+                        회원가입하러가기
+                    </div>
+                </div>
+                <div class="login_box_right">
+                    <h1 class="logo"><a href="./index.html"><img src="./img/logo.svg" alt="로고"></a></h1>
+                    <h2>LOGIN</h2>
+                    <form action="#">
+                        <label for="login_id">
+                            아이디
+                            <input id="login_id" type="text" placeholder="성함을 입력해주세요.">
+                        </label>
+                        <label for="login_pw">
+                            비밀번호
+                            <input type="password" id="login_pw" placeholder="비밀번호를 입력해주세요.">
+                        </label>
+                        <input type="submit" class="btn_common blue">로그인
+                    </form>
+                    <ul>
+                        <li><a href="#"><h5>아이디 찾기</h5></a></li>
+                        <li><a href="#"><h5>비밀번호 찾기</h5></a></li>
+                    </ul>
+                    <p><g7>간편로그인</g7></p>
+                    <ul>
+                        <li><a href="#"><img src="./img/naver.svg" alt="네이버로그인"></a></li>
+                        <li><a href="#"><img src="./img/kakao.svg" alt="카카오로그인"></a></li>
+                        <li><a href="#"><img src="./img/google.svg" alt="구글로그인"></a></li>
+                        <li><a href="#"><img src="./img/apple.svg" alt="애플로그인"></a></li>
+                    </ul>
+                                        
+                </div>
+                
+
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
